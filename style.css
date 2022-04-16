@@ -1,7 +1,68 @@
-MAIN h1 {
-  font-family: Helvetica, sans-serif;
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+display: flex;
+ justify-content: end;
+
+}
+#logo div {
+  max-width: 500px;
+  justify-content: end;
+}
+
+#icons ul{
+  display: flex;
+}
+#icons{
+  justify-content: end;
 }
 
 div h1 {
   font-family: 'Yellowtail', cursive;
+  margin: 0px;
+}
+
+header h6{
+  font-family: 'Abel', sans-serif;
+  margin: 0px;
+}
+
+#icons ul{
+  display: flex;
+  list-style: none;
+}
+
+#line {
+  background-repeat:repeat-y;
+  width
+}
+
+main h1 {
+  font-family: Helvetica, sans-serif;
+}
+
+main h3{
+  font-family: 'Abel', sans-serif;
+}
+
+#title {
+  justify-content: left;
+}
+
+div #pizza {
+  display: flex;
+}
+img[alt="choc-pizza"] {
+ justify-content: center;
+}
+
+p {
+  text-align: center;
+}
+
+#recipe ul {
+  align-items: center;
+  list-style-type:none;
 }
